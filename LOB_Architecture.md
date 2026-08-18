@@ -33,6 +33,8 @@ struct Order {
     uint64_t orderId;
 };
 
+```
+---
 ## Phase 2: The Resting Book & Price Levels (Completed)
 
 ### The Hierarchy
@@ -65,3 +67,4 @@ struct OrderBook {
         }
     }
 };
+```

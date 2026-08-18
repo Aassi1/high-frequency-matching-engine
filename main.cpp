@@ -29,12 +29,10 @@ struct OrderBook {
     void addOrder(Order newOrder){
         if (newOrder.side == Side::BUY){
             bids[newOrder.price].price = newOrder.price;
-
             bids[newOrder.price].order.push(newOrder);
 
         }else{
             asks[newOrder.price].price = newOrder.price;
-
             asks[newOrder.price].order.push(newOrder);
         }
     }
